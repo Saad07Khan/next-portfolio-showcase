@@ -1,11 +1,16 @@
 
+import eventConnectImg from "/econnect.png";
+import urlShortenerImg from "/url.png";
+import passSafeImg from "/passsafe.png";
+import intrusionDetectionImg from "/cnlstm.png";
+
 const Work = () => {
   const projects = [
     {
       category: "Web Application",
       title: "Event Connect",
       description: "EventConnect is a Next.js web application with MongoDB database, Google OAuth authentication, and TailwindCSS styling. It uses AI-powered email scraping to discover and manage events, featuring a modern dashboard interface with email integration via Nodemailer.",
-      image: "/econnect.png",
+      image: eventConnectImg,
       demoLink: "https://eventconnect7s-bq43jsql0-saad-mohammeds-projects.vercel.app/",
       githubLink: "https://github.com/Saad07Khan/Event_Connect"
     },
@@ -13,7 +18,7 @@ const Work = () => {
       category: "Web Application", 
       title: "URL Shortener",
       description: "MERN Stack URL Shortener built with React TypeScript frontend using Tailwind CSS and Vite, Express.js TypeScript backend with MongoDB Mongoose ODM, nanoid for URL generation, and Axios for API communication.",
-      image: "/url.png",
+      image: urlShortenerImg,
       demoLink: "https://drive.google.com/file/d/1JQROPrFuiHa8SRXS75iz8CrNtMsLsGBL/view?usp=sharing",
       githubLink: "https://github.com/Saad07Khan/url-shortner-app"
     },
@@ -21,7 +26,7 @@ const Work = () => {
       category: "Web Application",
       title: "PassSafe",
       description: "Password Manager is a full-stack web application built with React.js frontend styled with Tailwind CSS, and powered by a Node.js/Express.js backend that connects to MongoDB for data persistence. The application features password management functionality with a modern UI, toast notifications, and RESTful API endpoints for CRUD operations on stored passwords.",
-      image: "/passsafe.png",
+      image: passSafeImg,
       demoLink: "https://drive.google.com/file/d/1onqCZjRFP-ikCIbKQXzJpTjDKcoNHaC3/view?usp=sharing",
       githubLink: "https://github.com/Saad07Khan/passwordmanager/tree/main"
     },
@@ -29,7 +34,7 @@ const Work = () => {
       category: "Machine Learning",
       title: "ML/DL-based Intrusion Detection System",
       description: "This project uses pandas, numpy, seaborn, matplotlib, scikit-learn, imbalanced-learn, TensorFlow, Keras, and Optuna to process the CIC-IDS2017 dataset. It applies autoencoder-based dimensionality reduction and compares CNN, LSTM, and hybrid CNN-LSTM models, employing dropout, L2 regularization, batch normalization, early stopping, and learning rate scheduling for improved generalization.",
-      image: "/cnlstm.png",
+      image: intrusionDetectionImg,
       githubLink: "https://github.com/Saad07Khan/Intrusion-Detection-System"
     },
     /* Commenting out for now
