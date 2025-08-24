@@ -1,8 +1,8 @@
 
-import eventConnectImg from "/econnect.png";
-import urlShortenerImg from "/url.png";
-import passSafeImg from "/passsafe.png";
-import intrusionDetectionImg from "/cnlstm.png";
+import eventConnectImg from "../../public/eeee.png";
+import urlShortenerImg from "../../public/url.png";
+import passSafeImg from "../../public/passsafe.png";
+import intrusionDetectionImg from "../../public/cnlstm.png";
 
 const Work = () => {
   const projects = [
