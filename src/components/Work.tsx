@@ -5,7 +5,7 @@ const Work = () => {
       category: "Web Application",
       title: "Event Connect",
       description: "EventConnect is a Next.js web application with MongoDB database, Google OAuth authentication, and TailwindCSS styling. It uses AI-powered email scraping to discover and manage events, featuring a modern dashboard interface with email integration via Nodemailer.",
-      image: "/eeee.png",
+      image: "/econnect.png",
       demoLink: "https://eventconnect7s-bq43jsql0-saad-mohammeds-projects.vercel.app/",
       githubLink: "https://github.com/Saad07Khan/Event_Connect"
     },
@@ -21,7 +21,7 @@ const Work = () => {
       category: "Web Application",
       title: "PassSafe",
       description: "Password Manager is a full-stack web application built with React.js frontend styled with Tailwind CSS, and powered by a Node.js/Express.js backend that connects to MongoDB for data persistence. The application features password management functionality with a modern UI, toast notifications, and RESTful API endpoints for CRUD operations on stored passwords.",
-      image: "/passsafe.png", 
+      image: "/passsafe.png",
       demoLink: "https://drive.google.com/file/d/1onqCZjRFP-ikCIbKQXzJpTjDKcoNHaC3/view?usp=sharing",
       githubLink: "https://github.com/Saad07Khan/passwordmanager/tree/main"
     },
