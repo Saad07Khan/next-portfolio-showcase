@@ -10,8 +10,14 @@ const Experience = () => {
     {
       company: "InfoTact Solutions",
       role: "Associate L1",
-      period: "May 2025 - Present", 
+      period: "May 2025 - August 2025", 
       description: "-Developed clean, efficient, and maintainable code using Next.js React.js, and Node.js.\n\n-Created and maintained technical documentation for codebases, APIs, workflows, and system designs to ensure clarity and scalability."
+    },
+    {
+      company: "Avacasa",
+      role: "Founders Office- Tech",
+      period: "October 2025- Present",
+      description: "-Worked on building an AI-powered property recommendation agent using n8n and OpenAI, enabling natural language understanding and automated workflows with Webhook, Function, and PostgreSQL nodes for dynamic JSON/text outputs.\n\n-Designed and deployed a scalable AWS cloud architecture with Dockerized microservices on ECS Fargate, implementing CI/CD via GitHub Actions, ECR, IAM, VPC networking, Secrets Manager, CloudWatch logging, health checks, and automated rollbacks."
     }
   ];
 
@@ -62,7 +68,7 @@ const Experience = () => {
 
         <div className="mt-16 text-center">
           <a 
-            href="https://drive.google.com/file/d/1bR3qxHpoVV-dA12_nmAnfLgOWFT35Z4x/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Gv0mSl4gf12HpS_AenrH4pWE_FwAelGs/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 border-2 border-teal-400 text-teal-400 font-medium rounded-lg hover:bg-teal-400 hover:text-slate-900 transition-all duration-300"
