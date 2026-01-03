@@ -2,10 +2,10 @@
 const Experience = () => {
   const experiences = [
     {
-      company: "Kineton",
-      role: "Software Development Intern", 
-      period: "Jan 2025 - May 2025",
-      description: "-Designed and implemented a robust backend using Flask, ensuring efficient handling of APIs and database interactions and created RESTful API endpoints for seamless communication between the client and server\n- Integrated a modern front-end using Next.js with Tailwind CSS, delivering a responsive and visually appealing user interface"
+      company: "Avacasa",
+      role: "Founders Office- Tech",
+      period: "October 2025- Present",
+      description: "-Worked on building an AI-powered property recommendation agent using n8n and OpenAI, enabling natural language understanding and automated workflows with Webhook, Function, and PostgreSQL nodes for dynamic JSON/text outputs.\n\n-Designed and deployed a scalable AWS cloud architecture with Dockerized microservices on ECS Fargate, implementing CI/CD via GitHub Actions, ECR, IAM, VPC networking, Secrets Manager, CloudWatch logging, health checks, and automated rollbacks."
     },
     {
       company: "InfoTact Solutions",
@@ -14,10 +14,10 @@ const Experience = () => {
       description: "-Developed clean, efficient, and maintainable code using Next.js React.js, and Node.js.\n\n-Created and maintained technical documentation for codebases, APIs, workflows, and system designs to ensure clarity and scalability."
     },
     {
-      company: "Avacasa",
-      role: "Founders Office- Tech",
-      period: "October 2025- Present",
-      description: "-Worked on building an AI-powered property recommendation agent using n8n and OpenAI, enabling natural language understanding and automated workflows with Webhook, Function, and PostgreSQL nodes for dynamic JSON/text outputs.\n\n-Designed and deployed a scalable AWS cloud architecture with Dockerized microservices on ECS Fargate, implementing CI/CD via GitHub Actions, ECR, IAM, VPC networking, Secrets Manager, CloudWatch logging, health checks, and automated rollbacks."
+      company: "Kineton",
+      role: "Software Development Intern", 
+      period: "Jan 2025 - May 2025",
+      description: "-Designed and implemented a robust backend using Flask, ensuring efficient handling of APIs and database interactions and created RESTful API endpoints for seamless communication between the client and server\n- Integrated a modern front-end using Next.js with Tailwind CSS, delivering a responsive and visually appealing user interface"
     }
   ];
 
